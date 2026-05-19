@@ -15,8 +15,11 @@ class User {
 const names = ["Anthony", "Benedict", "Colin", "Daphne", "Eloise", "Francesca", "Gregory", "Hyacinth"];
 const users = [];
 
+var i = 0;
+
 names.forEach(name => {
-    users.push(new User(name, Math.round(Math.random()*100)));
+    i += 10;
+    users.push(new User(name, i));
 });
 
 app.get('/leaderboard', (req, res) => {
