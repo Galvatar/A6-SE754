@@ -119,7 +119,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">D:\桌面\results_high.csv</stringProp>
+          <stringProp name="filename">results_high.csv</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>

@@ -119,7 +119,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">D:\桌面\results_spike.csv</stringProp>
+          <stringProp name="filename">results_spike.csv</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
