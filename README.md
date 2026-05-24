@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# OOPS Leaderboard Feature
 
-## Getting Started
+This project implements a minimal leaderboard feature for performance testing. The backend provides a `GET /leaderboard` endpoint that returns users sorted by weekly points in descending order. The frontend fetches this endpoint and displays the ranked leaderboard with user names and points.
 
-1. Open the frontend folder
+## Running the app
+
+Start the frontend:
 
 ```bash
 cd frontend
-```
-
-2. Run the frontend:
-
-```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-3. Open the backend folder
-
+Start the backend:
 ```bash
-cd ..
 cd backend
-```
-
-4. Run backend
-
-```bash
 node index.js
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the leaderboard.
