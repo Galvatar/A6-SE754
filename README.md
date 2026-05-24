@@ -23,6 +23,7 @@ bun dev
 3. Open the backend folder
 
 ```bash
+cd ..
 cd backend
 ```
 
