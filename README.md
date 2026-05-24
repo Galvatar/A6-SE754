@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 1. Open the frontend folder
 
 ```bash
-cd frotnend
+cd frontend
 ```
 
 2. Run the frontend:
